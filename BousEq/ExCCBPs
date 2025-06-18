@@ -4,7 +4,8 @@ f = -y^3 + y*(5*x + 11) + x^4  +7*x^2 + 16*x + 9
 S = RiemannSurface(f, prec=100)
 S.cohomology_basis()
 
-MofInt2=S.matrix_of_integral_values(merbais)
+merbasis
+MofInt2=S.matrix_of_integral_values(merbasis)
 
 
 
